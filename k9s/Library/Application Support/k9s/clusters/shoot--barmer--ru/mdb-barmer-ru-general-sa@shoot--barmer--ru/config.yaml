@@ -1,0 +1,16 @@
+k9s:
+  cluster: shoot--barmer--ru
+  namespace:
+    active: verimi-system
+    lockFavorites: false
+    favorites:
+      - cao-postgres
+      - verimi-system
+      - verimi-osc-ru1
+      - default
+      - cao-postgres4
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  proxy: null

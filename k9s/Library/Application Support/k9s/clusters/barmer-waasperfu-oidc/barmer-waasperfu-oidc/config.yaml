@@ -1,0 +1,13 @@
+k9s:
+  cluster: barmer-waasperfu-oidc
+  namespace:
+    active: verimi-osc-waasperfu1
+    lockFavorites: false
+    favorites:
+      - verimi-osc-waasperfu1
+      - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  proxy: null

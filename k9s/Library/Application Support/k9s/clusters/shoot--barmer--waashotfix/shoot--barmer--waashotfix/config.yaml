@@ -1,0 +1,18 @@
+k9s:
+  cluster: shoot--barmer--waashotfix
+  namespace:
+    active: verimi-osc-waashotfix1
+    lockFavorites: false
+    favorites:
+    - verimi-eperi
+    - verimi-system
+    - cao-postgres
+    - cao-scone-nginx
+    - cao-kafka
+    - verimi-osc-waashotfix1
+    - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

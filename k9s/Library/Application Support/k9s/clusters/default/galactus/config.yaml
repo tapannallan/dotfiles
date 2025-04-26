@@ -1,0 +1,19 @@
+k9s:
+  cluster: default
+  namespace:
+    active: galactus
+    lockFavorites: false
+    favorites:
+      - waas-dev6
+      - waas-dev4
+      - ingress
+      - galactus
+      - waas-int
+      - waas-dev3
+      - default
+      - waas-dev1
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  proxy: null

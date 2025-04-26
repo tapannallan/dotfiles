@@ -1,0 +1,13 @@
+k9s:
+  cluster: barmer-waaspreprod-oidc
+  namespace:
+    active: verimi-osc-waaspreprod1
+    lockFavorites: false
+    favorites:
+    - verimi-osc-waaspreprod1
+    - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

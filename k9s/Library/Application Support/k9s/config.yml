@@ -1,0 +1,51 @@
+k9s:
+  liveViewAutoRefresh: false
+  refreshRate: 2
+  maxConnRetry: 5
+  enableMouse: false
+  enableImageScan: false
+  headless: false
+  logoless: false
+  crumbsless: false
+  readOnly: false
+  noExitOnCtrlC: false
+  noIcons: false
+  shellPod:
+    image: busybox:1.35.0
+    namespace: default
+    limits:
+      cpu: 100m
+      memory: 100Mi
+  skipLatestRevCheck: false
+  logger:
+    tail: 100
+    buffer: 5000
+    sinceSeconds: 60
+    fullScreenLogs: false
+    textWrap: false
+    showTime: false
+  currentContext: shoot--barmer--dev
+  currentCluster: shoot--barmer--dev
+  keepMissingClusters: false
+  clusters:
+    shoot--barmer--dev:
+      namespace:
+        active: verimi-osc-devu1
+        lockFavorites: false
+        favorites:
+        - verimi-osc-devu1
+        - default
+      view:
+        active: pods
+      featureGates:
+        nodeShell: false
+      portForwardAddress: localhost
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+  screenDumpDir: /var/folders/8_/29rjbnc17fb6y9s0x9n_r83w0000gn/T/k9s-screens-tapannallan
+  disablePodCounting: false

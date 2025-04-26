@@ -1,0 +1,20 @@
+k9s:
+  cluster: shoot--barmer--ru
+  namespace:
+    active: verimi-osc-ru1
+    lockFavorites: false
+    favorites:
+    - cao-postgres
+    - cao-scone-mariadb-hydra
+    - kyma-system
+    - kube-system
+    - cao-redis
+    - verimi-ingress
+    - verimi-eperi
+    - verimi-osc-ru1
+    - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

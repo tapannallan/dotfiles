@@ -1,0 +1,14 @@
+k9s:
+  cluster: galactus
+  namespace:
+    active: waas-dev1
+    lockFavorites: false
+    favorites:
+    - galactus
+    - waas-dev1
+    - default
+  view:
+    active: pods
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

@@ -1,0 +1,15 @@
+k9s:
+  cluster: default
+  namespace:
+    active: dev4
+    lockFavorites: false
+    favorites:
+      - dev7
+      - dev1
+      - dev4
+      - default
+  view:
+    active: dp
+  featureGates:
+    nodeShell: false
+  proxy: null

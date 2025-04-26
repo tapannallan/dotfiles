@@ -1,0 +1,20 @@
+k9s:
+  cluster: waas-ru
+  namespace:
+    active: verimi-osc-waasru1
+    lockFavorites: false
+    favorites:
+    - cao-gitlab-runner
+    - verimi-osc-waasru1
+    - verimi-system
+    - cao-kafka
+    - verimi-eperi
+    - all
+    - cao-postgres
+    - cao-scone-mariadb-idp-sync-service
+    - cao-scone-mariadb-hydra-proxy
+  view:
+    active: ns
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

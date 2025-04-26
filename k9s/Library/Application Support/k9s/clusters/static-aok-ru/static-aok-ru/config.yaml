@@ -1,0 +1,14 @@
+k9s:
+  cluster: static-aok-ru
+  namespace:
+    active: verimi-aok-ru1
+    lockFavorites: false
+    favorites:
+    - verimi-aok-ru1
+    - verimi-ci
+    - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

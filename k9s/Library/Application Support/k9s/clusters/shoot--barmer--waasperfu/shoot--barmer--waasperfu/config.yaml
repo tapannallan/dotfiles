@@ -1,0 +1,17 @@
+k9s:
+  cluster: shoot--barmer--waasperfu
+  namespace:
+    active: cao-scone-mariadb-hydra-proxy
+    lockFavorites: false
+    favorites:
+    - cao-scone-mariadb-hydra-proxy
+    - cao-postgres
+    - verimi-system
+    - cao-scone-mariadb-hydra
+    - verimi-osc-waasperfu1
+    - default
+  view:
+    active: context
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

@@ -1,0 +1,13 @@
+k9s:
+  cluster: shoot-fs2-0-dev-oidc
+  namespace:
+    active: kube-system
+    lockFavorites: false
+    favorites:
+    - kube-system
+    - default
+  view:
+    active: context
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

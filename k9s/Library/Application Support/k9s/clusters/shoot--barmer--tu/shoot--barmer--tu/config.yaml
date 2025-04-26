@@ -1,0 +1,17 @@
+k9s:
+  cluster: shoot--barmer--tu
+  namespace:
+    active: verimi-osc-tu1
+    lockFavorites: false
+    favorites:
+    - cao-mariadb
+    - verimi-eperi
+    - verimi-osc-tu1
+    - default
+    - all
+    - eperi
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

@@ -1,0 +1,15 @@
+k9s:
+  cluster: shoot--barmer--waaspreprod
+  namespace:
+    active: verimi-osc-waaspreprod1
+    lockFavorites: false
+    favorites:
+    - cao-scone-nginx
+    - verimi-eperi
+    - verimi-osc-waaspreprod1
+    - default
+  view:
+    active: context
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

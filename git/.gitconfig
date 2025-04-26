@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+
+[includeIf "gitdir:~/Workspace/Personal/**"]
+	path = ~/.config/gitconfig/git-personal.conf
+
+[includeIf "gitdir:~/Workspace/Infra/**"]
+	path = ~/.config/gitconfig/git-personal.conf
+
+[includeIf "gitdir:~/Workspace/Verimi-Main/**"]
+	path = ~/.config/gitconfig/git-work.conf
+
+[diff]
+	tool = p4merge
+[merge]
+	tool = p4merge
+
+[mergetool "p4merge"]
+	path = /Applications/p4merge.app/Contents/MacOS/p4merge

@@ -1,0 +1,14 @@
+k9s:
+  cluster: shoot-s10-waas-ru-oidc
+  namespace:
+    active: verimi-osc-waasru1
+    lockFavorites: false
+    favorites:
+      - verimi-system
+      - verimi-osc-waasru1
+      - default
+  view:
+    active: namespace
+  featureGates:
+    nodeShell: false
+  proxy: null

@@ -1,0 +1,13 @@
+k9s:
+  cluster: default
+  namespace:
+    active: devint
+    lockFavorites: false
+    favorites:
+    - devint
+    - default
+  view:
+    active: pods
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

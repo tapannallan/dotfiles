@@ -1,0 +1,13 @@
+k9s:
+  cluster: shoot--barmer--pu
+  namespace:
+    active: verimi-osc-pu1
+    lockFavorites: false
+    favorites:
+    - verimi-osc-pu1
+    - default
+  view:
+    active: context
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

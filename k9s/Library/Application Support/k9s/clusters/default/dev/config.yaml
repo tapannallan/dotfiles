@@ -1,0 +1,14 @@
+k9s:
+  cluster: default
+  namespace:
+    active: dev4
+    lockFavorites: false
+    favorites:
+    - dev4
+    - dev11
+    - default
+  view:
+    active: context
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost
