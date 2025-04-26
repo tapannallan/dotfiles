@@ -1,9 +1,0 @@
-[dbserver]
-db.nallan.cloud
-
-[kubemaster]
-node5.nallan.cloud
-
-[kubenodes]
-node1.nallan.cloud
-node2.nallan.cloud
