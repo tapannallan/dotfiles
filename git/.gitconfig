@@ -2,13 +2,13 @@
 [includeIf "gitdir:~/dotfiles/**"]
 	path = ~/.config/gitconfig/git-personal.conf
 
-[includeIf "gitdir:~/Workspace/Personal/**"]
+[includeIf "gitdir:~/Workspace/codebase/personal/**"]
 	path = ~/.config/gitconfig/git-personal.conf
 
-[includeIf "gitdir:~/Workspace/Infra/**"]
+[includeIf "gitdir:~/Workspace/opt/obsidian/**"]
 	path = ~/.config/gitconfig/git-personal.conf
 
-[includeIf "gitdir:~/Workspace/Verimi-Main/**"]
+[includeIf "gitdir:~/Workspace/codebase/verimi/**"]
 	path = ~/.config/gitconfig/git-work.conf
 
 [diff]
