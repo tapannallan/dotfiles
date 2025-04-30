@@ -9,7 +9,7 @@ k9s:
       - dev4
       - default
   view:
-    active: dp
+    active: d2
   featureGates:
     nodeShell: false
   proxy: null

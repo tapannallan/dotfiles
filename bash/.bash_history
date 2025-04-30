@@ -219,3 +219,5 @@ export LC_CTYPE=C; cat /dev/urandom | tr -dc 'a-zA-Z0-9'
 export LC_CTYPE=C; cat /dev/urandom 
 export LC_CTYPE=C; cat /dev/urandom | tr -dc 'a-zA-Z0-9'cle
 exit
+cd ~/Workspace/Personal && for d in */ ; do      if [ -d "$d/.git" ]; then         cd "$d";         remote_url=$(git remote -v | grep fetch | cut -d$'\t' -f2 | sed 's/\.git.*//' | sed 's/git@github.com://' | sed 's/git@gitlab.com://' | sed 's/https:\/\/github.com\///');         if [ ! -z "$remote_url" ]; then             echo "$remote_url";         fi;         cd ..;     fi; exit
+exit
