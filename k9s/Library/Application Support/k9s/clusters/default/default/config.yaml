@@ -4,12 +4,13 @@ k9s:
     active: dev4
     lockFavorites: false
     favorites:
+      - all
       - dev7
       - dev1
       - dev4
       - default
   view:
-    active: d2
+    active: namespace
   featureGates:
     nodeShell: false
   proxy: null
