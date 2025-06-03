@@ -39,3 +39,4 @@ package wifi-password
 package zlua
 theme default
 theme dmorrell
+theme git@gitlab.verimi.cloud:tapannallan/my-fish-theme.git
